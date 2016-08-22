@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "edu.gatech.seclass.gobowl"
+        minSdkVersion 15
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+
+        // test runner
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile files('libs/gobowl-services.jar')
+
+    // Android Testing Support Library's runner and rules
+    androidTestCompile "com.android.support.test:runner:0.5"
+    androidTestCompile "com.android.support.test:rules:0.5"
+    // http://stackoverflow.com/questions/33317555/conflict-with-dependency-com-android-supportsupport-annotations-resolved-ver
+    androidTestCompile 'com.android.support:support-annotations:23.4.0'
+
+    // Espresso UI Testing dependencies
+    androidTestCompile 'com.android.support.test.espresso:espresso-core:2.2.2'
+}

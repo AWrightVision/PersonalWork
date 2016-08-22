@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">GoBowl</string>
+
+    <!-- across app strings -->
+    <string name="emptyString"></string>
+    <string name="errorUnhandledButton">ERROR - unhandled button</string>
+
+    <!-- login activity -->
+    <string name="loginMainTitle">Welcome</string>
+    <string name="loginRoleTitle">Role:</string>
+    <string name="loginEmailTitle">Email:</string>
+    <string name="loginHintEmail"><i>Email Address</i></string>
+    <string name="loginButtonSignIn">Sign In</string>
+    <string name="loginRbCustomer">Customer</string>
+    <string name="loginRbManager">Manager</string>
+    <string name="loginForgotEmail">Forgot your Email?</string>
+    <string name="loginForgotEmailMessage">Please speak to manager directly\n</string>
+    <string name="loginNeedAccount">Need an Account?</string>
+    <string name="loginNeedAccountMessage">Please speak to manager directly\n</string>
+    <string name="loginErrorInvalidRole">ERROR - invalid role</string>
+    <string name="loginPleaseEnterEmail">Please enter an email address</string>
+
+    <!-- customer activity -->
+    <string name="title_customer">GoBowl - Customer</string>
+
+    <!-- manager activity -->
+    <string name="mngrMainTitle">Manager</string>
+    <string name="mngrTotalCustomers">Total Customers:</string>
+    <string name="mngrVipCustomers">VIP Customers:</string>
+    <string name="mngrButtonNewCustomer">NEW CUSTOMER</string>
+    <string name="mngrButtonPrintCard">PRINT CARD</string>
+    <string name="mngrButtonEditCustomer">EDIT CUSTOMER</string>
+    <string name="mngrButtonDeleteCustomer">DELETE CUSTOMER</string>
+    <string name="mngrButtonShowAllCustomers">SHOW ALL CUSTOMERS</string>
+    <string name="mngrButtonDeleteAllCustomers">DELETE ALL CUSTOMERS</string>
+
+    <!-- new customer dialog -->
+    <string name="mngrNewCustomerTitle">Edit Customer</string>
+    <string name="mngrNewCustomerHintFirstName"><i>First Name</i></string>
+    <string name="mngrNewCustomerHintLastName"><i>Last Name</i></string>
+    <string name="mngrNewCustomerHintEmail"><i>Email</i></string>
+    <string name="mngrNewCustomerMissingFirstName">First Name must be populated</string>
+    <string name="mngrNewCustomerMissingLastName">Last Name must be populated</string>
+    <string name="mngrNewCustomerMissingEmail">Email must be populated</string>
+
+    <!-- print customer card -->
+    <string name="mngrPrintCardSpinnerHint">Select A Customer...</string>
+    <string name="mngrPrintCardSuccessToastMsg">Print Card - Success</string>
+    <string name="mngrPrintCardFailToastMsg">Print Card - Failed\nPlease try again</string>
+    <string name="mngrPrintCardNothingSelectedToastMsg">Print Card - Success</string>
+
+    <!-- edit customer dialog -->
+    <string name="mngrEditCustomerSpinnerHint">Select A Customer...</string>
+    <string name="mngrEditCustomerHintFirstName"><i>Edit First Name</i></string>
+    <string name="mngrEditCustomerHintLastName"><i>Edit Last Name</i></string>
+    <string name="mngrEditCustomerHintEmail"><i>Edit Email</i></string>
+    <string name="mngrEditCustomerMissingFirstName">First Name must be populated</string>
+    <string name="mngrEditCustomerMissingLastName">Last Name must be populated</string>
+    <string name="mngrEditCustomerMissingEmail">Email must be populated</string>
+    <string name="mngrEditCustomerUpdatedToastMsg">Customer Updated</string>
+    <string name="mngrEditCustomerFailedToastMsg">ERROR - failed to update</string>
+    <string name="mngrEditCustomerNothingSelectedToastMsg">Select a customer from Spinner</string>
+
+    <!-- delete customer dialog -->
+
+    <!-- delete all customers -->
+    <string name="mngrDeleteAllDialogTitle">Delete All Customers</string>
+    <string name="mngrDeleteAllDialogMessage">This will clear the entire GoBowl Database.\nAll Customer records and corresponding Lane and Player information will be deleted.</string>
+    <string name="mngrDeleteAllToastMessage">All Records Deleted</string>
+
+    <!-- show all customer message -->
+    <string name="mngrShowAllCustomerTitle">Customer Data</string>
+    <string name="mngrShowAllCustomerEmpty">No Customer Data</string>
+
+
+    <!-- dialog buttons -->
+    <string name="cancel">Cancel</string>
+    <string name="submit">Submit</string>
+    <string name="print">Print</string>
+
+    <!-- activity split bill -->
+    <string name="waysToSplit">Ways to Split</string>
+    <string name="evenSplitText">Even Split</string>
+    <string name="splitDisplay">Split Display</string>
+    <string name="dateDisplayed">Date Displayed</string>
+
+    <!-- dialog print customer card -->
+    <string name="mngrPrintCustomerCardTitle">Print Customer Card</string>
+
+    <!-- dialog delete customer -->
+    <string name="mngrDeleteCustomerTitle">Delete Customer</string>
+
+    <!-- Main Cutomer Activity -->
+    <string name="custPlayerLimitErrorToastMsg">Enter 1 to 8 players</string>
+    <string name="custNotEnoughPlayersToastMsg">Too few registered customers in the system</string>
+    <string name="custCheckoutWithoutLaneToastMsg">You need to request a lane first</string>
+    <string name="custActiveGameTextViewYes">Yes</string>
+    <string name="custActiveGameTextViewNo">No</string>
+    <string name="custLanesTextViewNone">None</string>
+    <string name="custErrFailedToScan">ERROR - failed to insert</string>
+
+    <string name="fragRequestPlayersMainTitle">How many players?</string>
+
+</resources>
